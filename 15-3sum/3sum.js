@@ -2,6 +2,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
+
 var threeSum = function(nums) {
     let n = nums.length
     let ans = [];
@@ -32,5 +33,4 @@ var threeSum = function(nums) {
         }
     }
     return ans;
-    
-};
+};   
