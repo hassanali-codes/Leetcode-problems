@@ -15,8 +15,8 @@ var maxProfit = function(prices) {
             maxProfit = Math.max(maxProfit, profit)
         }
     }
-    return maxProfit
-};
+    return maxProfit;
+}
 
 // TIme Complexity: O(n)
 // Space Complexity: O(1)
