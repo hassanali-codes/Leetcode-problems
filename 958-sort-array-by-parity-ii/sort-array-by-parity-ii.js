@@ -23,24 +23,21 @@ var sortArrayByParityII = function(nums) {
 
 
 
-// ------------Time Complexity-----------
-var sortArrayByParityII = function(nums) {
+// ------------Brute Force-----------
+// var sortArrayByParityII = function(nums) {
     
-    for (let i = 0; i < nums.length; i++) {
+//     for (let i = 0; i < nums.length; i++) {
         
-         if (nums[i] % 2 !== i % 2) {
+//          if (nums[i] % 2 !== i % 2) {
             
-             for (let j = i + 1; j < nums.length; j++) {
+//              for (let j = i + 1; j < nums.length; j++) {
                 
-                if (nums[j] % 2 === i % 2) {
-                    
-                 
-                    [nums[i], nums[j]] = [nums[j], nums[i]];
-                    break;
-                }
-            }
-        }
-    }
+//                 if (nums[j] % 2 === i % 2) {
+//                     [nums[i], nums[j]] = [nums[j], nums[i]];
+//                     break;
+//                 }
+//             }
+//         }
+//     }
     
-    return nums;
-};
+//     return nums;
