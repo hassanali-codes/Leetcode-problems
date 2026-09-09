@@ -6,7 +6,7 @@
 var shortestToChar = function(s, c) {
     let ans = new Array(s.length)
 
-    let pos = Infinity
+    let pos = -Infinity
 
     for(let i=0; i < s.length; i++){
         if(s[i]==c){
