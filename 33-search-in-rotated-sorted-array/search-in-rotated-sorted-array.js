@@ -12,7 +12,7 @@ var search = function(nums, target) {
 
         if (nums[mid] === target) return mid;
 
-        // Left half sorted hai
+         
         if (nums[left] <= nums[mid]) {
             if (nums[left] <= target && target < nums[mid]) {
                 right = mid - 1;
@@ -20,7 +20,7 @@ var search = function(nums, target) {
                 left = mid + 1;
             }
         }
-        // Right half sorted hai
+         
         else {
             if (nums[mid] < target && target <= nums[right]) {
                 left = mid + 1;
